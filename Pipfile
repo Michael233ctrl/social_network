@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.0.1"
+django-rest-framework = "==3.13.1"
+djangorestframework-simplejwt = "==5.0.0"
+lorem = "==0.1.1"
+names = "==0.3.0"
+requests = "==2.27.1"
+psycopg2-binary = "==2.9.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
